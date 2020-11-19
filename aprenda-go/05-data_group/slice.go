@@ -8,6 +8,9 @@ import "fmt"
 	Um slice internamente é um array;
 
 	Ao declarar um slice não precisamos definir seu tamanho em elementos;
+
+	Slice é declarado com numero fixo de elementos
+		Para adicionar itens no slice devemos chamar append
 */
 func main() {
 
