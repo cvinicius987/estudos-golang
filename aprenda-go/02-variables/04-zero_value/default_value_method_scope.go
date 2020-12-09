@@ -10,7 +10,7 @@ func main() {
 	var number int
 
 	//Erro de compilação, o valor default só será atribuido em escopo local
-	//qquando o tipo for explicito
+	//quando o tipo for explicito
 	//var number2
 
 	fmt.Printf("%v, %T\n", number, number)
