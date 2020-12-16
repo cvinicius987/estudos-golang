@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 	/*
-		String são imutaveis, ou seja, a acada alteração uma nova string será criada
+		String são imutaveis, ou seja, a cada alteração uma nova string será criada
 	*/
 
 	s := "Hello String...."

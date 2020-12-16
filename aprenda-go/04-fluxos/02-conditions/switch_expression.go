@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	x := 11
+	x := 10
 
 	switch {
 	case x == 10:
