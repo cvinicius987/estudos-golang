@@ -14,4 +14,15 @@ func main() {
 		}
 
 	}(list)
+
+	//Função anonima que pode ser usado mais de uma vez
+	functionTeste := func(items []string) {
+
+		for index, value := range items {
+			fmt.Println(index, " = ", value)
+		}
+
+	}
+
+	functionTeste(list)
 }

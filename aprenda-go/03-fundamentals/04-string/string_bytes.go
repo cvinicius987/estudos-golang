@@ -1,18 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
+	a := "e"
+	b := "é"
+	c := "香"
+	fmt.Printf("%v, %v, %v\n", a, b, c)
 
-	s := "Hello String...."
+	d := []byte(a)
+	e := []byte(b)
+	f := []byte(c)
 
-	//Converte para bytes
-	sb := []byte(s)
+	fmt.Printf("%v, %v, %v", d, e, f)
 
-	for _, v := range sb {
-
-		fmt.Printf("%b, %v, %T, %#U, %#x\n", v, v, v, v)
-	}
-
-	fmt.Printf("%v, %T", sb, sb)
 }

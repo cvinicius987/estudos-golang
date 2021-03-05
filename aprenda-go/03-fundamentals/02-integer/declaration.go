@@ -7,7 +7,7 @@ func main() {
 	//Os tipos inteiros são definidos entre int32 ou int64 pela arquitetura da maquina
 	//onde o programa esta sendo executado
 	//Por padrão use int e deixe a maquina definir qual é mais performatico
-	x := 10
+	var x int = 10
 
 	y := 10.0
 

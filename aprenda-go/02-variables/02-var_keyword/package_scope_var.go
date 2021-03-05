@@ -13,6 +13,7 @@ func plus(value int) {
 
 func main() {
 
+
 	fmt.Printf("Valor Inicial: %d \n", initial)
 
 	var x = 10

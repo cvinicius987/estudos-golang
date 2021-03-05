@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//Um tipo é devivado de um outro tipo, mas não pertence a hierarquia
+//Um tipo é derivado de um outro tipo, mas não pertence a hierarquia
 type client string
 
 func main() {
