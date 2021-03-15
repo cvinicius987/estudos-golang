@@ -10,4 +10,8 @@
 
 ### Compilando e mantendo o compilado
 
-> got build <name_file>.go
+> go build <name_file>.go
+
+### Download de Modulos
+
+> go get <module_name>
