@@ -11,5 +11,5 @@ func main() {
 	//binary  		= %b
 	//%hexadecimal  = %#x
 
-	fmt.Printf("Decimal: %d, Binary: %b, Hexadecimal: %#x \n", a, a, a)
+	fmt.Printf(" Decimal: %d \n Binary: %b \n Hexadecimal: %#x", a, a, a)
 }

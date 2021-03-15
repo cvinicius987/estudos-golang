@@ -15,5 +15,5 @@ func main() {
 	//incrementando o valor que esta localização no ponteiro
 	*y++
 
-	fmt.Println("x:", x, "y:", y)
+	fmt.Println("x:", x, "y:", *y)
 }

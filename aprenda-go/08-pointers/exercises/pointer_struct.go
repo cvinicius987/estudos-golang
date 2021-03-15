@@ -15,25 +15,28 @@ import "fmt"
 */
 
 type pessoa struct {
-	name string
+	name  string
+	owner string
 }
 
 func main() {
 
 	p1 := pessoa{
-		name: "Go",
+		name:  "Go",
+		owner: "Google",
 	}
 
-	fmt.Println("Main antes de mudar:", p1.name)
+	fmt.Println("Main antes de mudar:", p1)
 
 	mudeme(&p1)
 
-	fmt.Println("Main apos mudar:", p1.name)
+	fmt.Println("Main apos mudar:", p1)
 }
 
 func mudeme(p *pessoa) {
 
 	(*p).name = "Java"
+	p.owner = "Oracle"
 
-	fmt.Println("Mudeme:", p.name)
+	fmt.Println("Mudeme:", *p)
 }
