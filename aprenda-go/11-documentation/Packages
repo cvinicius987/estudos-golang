@@ -1,0 +1,9 @@
+
+--Busca uma dependencia
+https://pkg.go.dev/
+
+--Down load dos packages
+go get <Package>
+
+--Faz um update do package caso ja exista
+go get -u <Package>

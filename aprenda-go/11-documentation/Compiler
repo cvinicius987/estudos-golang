@@ -1,0 +1,10 @@
+Para compílar o codigo Go para outras plataformas precisamos saber 2 parametros:
+
+- GOOS (Sistema operacional cujo o codigo sera compílado)
+- GOARCH (Arquitetura do computador alvo)
+
+- `GOOS=darwin GOARCH=amd64 go build test.go`
+
+É possivel compilar um binario para windows estando do Linux
+
+https://pkg.go.dev/runtime#pkg-constants
