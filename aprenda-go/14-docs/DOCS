@@ -1,0 +1,25 @@
+
+Sites documentação oficial
+
+    golang.org
+
+    godoc.org
+   
+Go documentação
+
+    go doc fmt Println
+
+    godoc -http=:4000
+
+godoc
+
+    é possivel exibir a documentação de qualquer projeto no GoDoc;
+
+Escrevendo documentação
+
+    Escrevemos utilizando comentario antes da declaração do código;
+    
+    Podemos criar um arquivo chamado doc.go para quando a documentação for muito grande;
+
+    Sempre começar o comentario/doc com o nome do recurso que esta documentando,
+    isso é um padrão para escrita de documentação;

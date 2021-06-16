@@ -15,6 +15,25 @@ func main() {
 
 	x := "Golang"
 
+	fmt.Println("==== Main")
 	fmt.Println("x address:", &x)
 	fmt.Println("x value:", x)
+
+	viewMemory(x)
+
+	viewMemoryByPointer(&x)
+}
+
+func viewMemory(x string) {
+
+	fmt.Println("==== viewMemory")
+	fmt.Println("x address:", &x)
+	fmt.Println("x value:", x)
+}
+
+func viewMemoryByPointer(x *string) {
+
+	fmt.Println("==== viewMemoryByPointer")
+	fmt.Println("x address:", x)
+	fmt.Println("x value:", *x)
 }
